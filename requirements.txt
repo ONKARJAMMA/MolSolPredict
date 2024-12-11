@@ -1,20 +1,14 @@
-tensorflow==2.16.1            # Compatible with Python 3.10
-numpy==1.26.0                 # Compatible with TensorFlow and matplotlib
-pandas==2.1.3                 # Compatible with Python 3.10
-matplotlib==3.8.0             # Compatible with Python 3.10
-scikit-learn==1.4.2           # Matches numpy version compatibility
-Flask==2.3.2                  # Compatible with Werkzeug
-Werkzeug==3.0.3               # Flask dependency
-setuptools==68.0.0            # Updated for broader compatibility
-joblib==1.4.2                 # Required for scikit-learn compatibility
-streamlit==1.40.2             # Compatible with Python 3.10
-Pillow==9.4.0                 # For image handling
+streamlit==1.40.2            # Compatible with Python 3.12
+tensorflow==2.16.1           # Latest supported version for Python 3.12
+numpy==1.26.0                # Compatible with TensorFlow and matplotlib
+pandas==2.1.3                # Latest compatible version
+matplotlib==3.8.0            # Compatible with Python 3.12
+scikit-learn==1.4.2          # Matches numpy version compatibility
+yfinance==0.2.24             # Stable version
+Flask==2.3.2                 # Compatible with Werkzeug
+Werkzeug==3.0.3              # Flask dependency
+setuptools==68.0.0           # Updated for broader compatibility
+joblib==1.4.2                # Scikit-learn dependency
 
-# RDKit compatible with Python 3.10
-rdkit==2023.9.1        # Officially supported for Python 3.10
-Pillow==9.1.1                # Compatible with Python 3.10, used for image handling
-
-# Additional dependencies
-requests==2.28.1             # For making HTTP requests if needed
-scipy==1.7.3                 # For scientific computations if needed
-
+Pillow==9.4.0                # Stable version for compatibility with Streamlit
+pip install rdkit==2023.9.1  # Ensure you use a compatible RDKit version with Python 3.10
