@@ -12,4 +12,4 @@ streamlit==1.40.2             # Compatible with Python 3.10
 Pillow==9.4.0                 # For image handling
 
 # RDKit compatible with Python 3.10
-rdkit==2022.9.1               # Officially supported for Python 3.10
+ rdkit==2023.9.1        # Officially supported for Python 3.10
