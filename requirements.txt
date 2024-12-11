@@ -12,4 +12,4 @@ joblib==1.4.2                 # Scikit-learn dependency
 
 streamlit==1.40.2             # Compatible with Python 3.12
 Pillow==9.4.0                 # For image handling
-rdkit-pypi==2023.9.1          # For molecular descriptor calculations
+pip install rdkit==2022.9.1
