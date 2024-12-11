@@ -9,3 +9,7 @@ Flask==2.3.2                  # Compatible with Werkzeug
 Werkzeug==3.0.3               # Flask dependency
 setuptools==68.0.0            # Updated for broader compatibility
 joblib==1.4.2                 # Scikit-learn dependency
+
+streamlit==1.40.2             # Compatible with Python 3.12
+Pillow==9.4.0                 # For image handling
+rdkit-pypi==2023.9.1          # For molecular descriptor calculations
